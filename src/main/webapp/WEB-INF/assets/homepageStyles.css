@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #BFB4EE;
+	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+	display: flex;
+	font-size: 1.1em;
+}
+
+.header {
+	display: flex;
+	width: 120%;
+	margin: 0 auto;
+	align-items: flex-start;
+}
+
+.main-content-block {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin: 3.5rem auto;
+}
+
+.eb-container {
+	width: 90%;
+	background-color: #fff;
+	margin: 1.5rem auto 4rem auto;
+	padding: 2rem;
+	border: 2px solid #FFBB36;
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 7rem;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	color: #FFF;
+}
+
+h2 {
+	text-align: center;
+	border-bottom: 3px solid #FFBB36;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+h3 {
+	color: white;
+}
+
+.eb-container p, h2 {
+	width: 80%;
+	margin: 2rem auto;
+}
+
+.eb-navmenu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #75689D;
+	width: 80%;
+	border-bottom: 1px solid #FFBB36;
+	border-radius: 8px;
+}
+
+a.nav-button.menu-item {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+}
+
+a.nav-button.menu-item:hover {
+	transition: all 0.5s;
+	font-weight: bold;
+	transform: scale(1.1);
+}
+
+#authentification {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.btn-signup {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	background-color: #75689D;
+	border-radius: 5px;
+}
+
+.btn-signin {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	background-color: #75689D;
+	border-radius: 5px;
+}
+
+.btn-signup:hover {
+	transition: all 0.5s;
+	background-color: rgb(145, 93, 145);
+	transform: scale(1.1);
+}
+
+.btn-signin:hover {
+	transition: all 0.5s;
+	background-color: rgb(145, 93, 145);
+	transform: scale(1.1);
+}
+
+.contact-copyright {
+	display: flex;
+	justify-content: space-evenly;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background-color: #1A0C25;
+	color: white;
+	border: 1px solid white;
+	padding: 1.3em;
+}
