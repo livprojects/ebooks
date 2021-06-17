@@ -1,0 +1,9 @@
+<div class="publications-main">
+
+    <h2 class="publications-h2">New York Times' bestsellers</h2>
+    <div class="one-publication" *ngFor="let publication of publications">
+        <div>Titre : {{ publication.title | titlecase }}</div>
+        <div>Auteur/Autrice : {{ publication.author }}</div>
+        <div>Résumé : {{ publication.description }}</div>
+    </div>
+</div>

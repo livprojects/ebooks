@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.publications-main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.one-publication {
+    border: 1px solid orange;
+    margin: 3rem auto;
+    padding: 4rem;
+    width: 80%;
+}
+
+.publications-h2 {
+    border-bottom: 2px solid orange;
+    margin: auto;
+}
