@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PublicationComponent } from './components/publication/publication.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GenreComponent } from './components/genre/genre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PublicationComponent
+    PublicationComponent,
+    GenreComponent
   ],
   imports: [
     BrowserModule, 
